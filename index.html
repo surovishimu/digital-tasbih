@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <link rel="shortcut icon" href="./image/beads.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-fuchsia-100 max-w-screen-lg  mx-auto bg-cover bg-no-repeat">
+    <header class=" px-8 md:px-16 lg:px-24 py-5 lg:mt-10">
+        <h1 class="text-2xl md:text-4xl text-center text-black font-bold mt-5">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+        </h1>
+        <h3 class="text-center mt-4 text-sm text-black">🌻(বিসমিল্লাহির রাহমানির রাহিম)🌻</h3>
+    </header>
+    <main>
+        <div
+            class=" max-w-screen-lg lg:h-96  mx-auto px-8 md:px-16 lg:px-24 py-5 flex lg:flex-row lg:justify-between lg:items-center lg:gap-5 flex-col  items-center gap-5 ">
+            <div class="card   bg-orange-200 text-neutral-content ">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-xl md:text-2xl text-black">سُبْحاَنَ اللهِ</h2>
+                    <p class="text-sm text-black">(সুবহানাল্লাহ)</p>
+                    <p class="bg-slate-200 h-12 w-20 text-center text-black font-semibold text-xl flex justify-center items-center rounded-lg mt-5 count-field"
+                        id="count-field-1">0</p>
+                    <div class="card-actions justify-end mt-5">
+
+                        <button class="btn bg-green-500 w-24 text-white hover:text-black border-none button-count"
+                            id="btn-count-1">Count</button>
+                        <button class="btn  bg-red-500 w-24 text-white hover:text-black border-none button-reset"
+                            id="reset-btn-1">Reset</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card   bg-orange-200 text-neutral-content ">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-xl md:text-2xl text-black">اَلْحَمْدُ لِلهِ</h2>
+                    <p class="text-sm text-black">(আলহামদুলিল্লাহ)</p>
+                    <p class="bg-slate-200 h-12 w-20 text-center text-black font-semibold text-xl flex justify-center items-center rounded-lg mt-5 count-field"
+                        id="count-field-2">0</p>
+                    <div class="card-actions justify-end mt-5">
+
+                        <button class="btn bg-green-500 w-24 text-white hover:text-black border-none button-count"
+                            id="btn-count-2">Count</button>
+                        <button class="btn  bg-red-500 w-24 text-white hover:text-black border-none button-reset"
+                            id="reset-btn-2">Reset</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card   bg-orange-200 text-neutral-content ">
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-xl md:text-2xl text-black">اَلّلَهُ اَكْبَرْ</h2>
+                    <p class="text-sm text-black">(আল্লাহু আকবার)</p>
+                    <p class="bg-slate-200 h-12 w-20 text-center text-black font-semibold text-xl flex justify-center items-center rounded-lg mt-5 count-field"
+                        id="count-field-3">0</p>
+                    <div class="card-actions justify-end mt-5">
+
+                        <button class="btn bg-green-500 w-24 text-white hover:text-black border-none button-count"
+                            id="btn-count-3">Count</button>
+                        <button
+                            class="btn  bg-red-500 w-24 text-white hover:text-black border-none button-reset " id="reset-btn-3">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
