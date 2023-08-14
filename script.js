@@ -19,7 +19,7 @@ document.getElementById('btn-count-2').addEventListener('click', function () {
 })
 document.getElementById('reset-btn-2').addEventListener('click', function () {
     const countField = document.getElementById('count-field-2');
-    defaultValue1 = 0;
+    defaultValue2 = 0;
     countField.innerText = '0';
 })
 
@@ -32,7 +32,7 @@ document.getElementById('btn-count-3').addEventListener('click', function () {
 })
 document.getElementById('reset-btn-3').addEventListener('click', function () {
     const countField = document.getElementById('count-field-3');
-    defaultValue1 = 0;
+    defaultValue3 = 0;
     countField.innerText = '0';
 })
 
